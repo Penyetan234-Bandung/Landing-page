@@ -1,0 +1,93 @@
+@import "tailwindcss";
+
+:root {
+  --radius: 1rem;
+  --background: #f7f9f8;
+  --foreground: #1c3528;
+  --card: #ffffff;
+  --card-foreground: #1c3528;
+  --primary: #2a6b50;
+  --primary-foreground: #ffffff;
+  --primary-deep: #163e2d;
+  --secondary: #eef4f1;
+  --secondary-foreground: #2a6b50;
+  --muted: #f1f5f3;
+  --muted-foreground: #475569;
+  --accent: #cc2e35;
+  --accent-foreground: #ffffff;
+  --gold: #f5b041;
+  --border: #d2ded7;
+  --input: #d2ded7;
+  --ring: #2a6b50;
+  --gradient-hero: linear-gradient(150deg, #163e2d 0%, #1f563f 55%, #2a6b50 100%);
+  --gradient-accent: linear-gradient(135deg, #b31d23 0%, #cc2e35 60%, #e65100 100%);
+  --shadow-card: 0 4px 20px -2px rgba(22, 62, 45, 0.08), 0 2px 6px -1px rgba(0, 0, 0, 0.04);
+  --shadow-lift: 0 16px 36px -12px rgba(22, 62, 45, 0.16), 0 4px 12px -2px rgba(0, 0, 0, 0.06);
+}
+
+@theme {
+  --font-display: 'Poppins', system-ui, sans-serif;
+  --font-sans: 'Montserrat', system-ui, sans-serif;
+  --color-primary: #2a6b50;
+  --color-primary-foreground: #ffffff;
+  --color-primary-deep: #163e2d;
+  --color-secondary: #eef4f1;
+  --color-secondary-foreground: #2a6b50;
+  --color-muted: #f1f5f3;
+  --color-muted-foreground: #475569;
+  --color-accent: #cc2e35;
+  --color-accent-foreground: #ffffff;
+  --color-gold: #f5b041;
+  --color-card: #ffffff;
+  --color-card-foreground: #1c3528;
+  --color-background: #f7f9f8;
+  --color-foreground: #1c3528;
+  --color-border: #d2ded7;
+}
+
+body {
+  font-family: 'Montserrat', system-ui, sans-serif;
+  background-color: var(--background);
+  color: var(--foreground);
+}
+
+h1, h2, h3, h4, h5, h6, .font-display {
+  font-family: 'Poppins', system-ui, sans-serif;
+}
+
+.section-pad {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+@media (min-width: 640px) {
+  .section-pad {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
+
+.surface-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-card);
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 4.5rem;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f3;
+}
+::-webkit-scrollbar-thumb {
+  background: #667e72;
+  border-radius: 9999px;
+}

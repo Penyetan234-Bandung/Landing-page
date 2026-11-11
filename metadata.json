@@ -1,0 +1,8 @@
+{
+  "name": "Penyetan 234 Bandung",
+  "description": "Website resmi Penyetan 234 Bandung - Kuliner Halal Lagi Thayyib khas Sunda dengan fasilitas Free Refill Nasi, Sambal, dan Lalapan sepuasnya.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
