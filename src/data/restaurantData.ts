@@ -137,21 +137,21 @@ export const GOOGLE_REVIEWS: GoogleReview[] = [
 ];
 
 export const LOVABLE_IMAGES = {
-  logo: '/src/assets/lovable/logo.jpg',
-  outlet: '/src/assets/lovable/outlet.png',
-  resto: '/src/assets/lovable/resto.jpg',
-  heroFood: '/src/assets/lovable/hero-food.jpg',
-  menuAyamBakar: '/src/assets/lovable/menu-ayam-bakar.jpg',
-  menuBebek: '/src/assets/lovable/menu-bebek.jpg',
-  menuIkan: '/src/assets/lovable/menu-ikan.jpg',
-  menuSambal: '/src/assets/lovable/menu-sambal.jpg',
-  menuNasi: '/src/assets/lovable/menu-nasi.jpg',
-  naskotBroiler: '/src/assets/lovable/naskot-broiler.jpg',
-  naskotPejantan: '/src/assets/lovable/naskot-pejantan.jpg',
-  naskotBebek: '/src/assets/lovable/naskot-bebek.jpg',
-  naskotNila: '/src/assets/lovable/naskot-nila.jpg',
-  naskotLele: '/src/assets/lovable/naskot-lele.jpg',
-  naskotGurame: '/src/assets/lovable/naskot-gurame.jpg',
+  logo: '/assets/lovable/logo.jpg',
+  outlet: '/assets/lovable/outlet.png',
+  resto: '/assets/lovable/resto.jpg',
+  heroFood: '/assets/lovable/hero-food.jpg',
+  menuAyamBakar: '/assets/lovable/menu-ayam-bakar.jpg',
+  menuBebek: '/assets/lovable/menu-bebek.jpg',
+  menuIkan: '/assets/lovable/menu-ikan.jpg',
+  menuSambal: '/assets/lovable/menu-sambal.jpg',
+  menuNasi: '/assets/lovable/menu-nasi.jpg',
+  naskotBroiler: '/assets/lovable/naskot-broiler.jpg',
+  naskotPejantan: '/assets/lovable/naskot-pejantan.jpg',
+  naskotBebek: '/assets/lovable/naskot-bebek.jpg',
+  naskotNila: '/assets/lovable/naskot-nila.jpg',
+  naskotLele: '/assets/lovable/naskot-lele.jpg',
+  naskotGurame: '/assets/lovable/naskot-gurame.jpg',
 };
 
 export const MENU_CATEGORIES = [
