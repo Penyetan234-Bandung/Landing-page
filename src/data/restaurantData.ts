@@ -15,6 +15,7 @@ export interface LovableNaskot {
   bakar: string;
   desc: string;
   isi: string[];
+  isiKenyang: string[];
   image: string;
 }
 
@@ -364,6 +365,16 @@ export const NASI_KOTAK_LIST: LovableNaskot[] = [
       'Jukut goreng',
       '2 pilihan sambal',
     ],
+    isiKenyang: [
+      'Nasi putih',
+      'Ayam broiler',
+      'Capcay',
+      'Soun',
+      'Terong goreng',
+      'Tahu goreng',
+      'Lalapan',
+      '2 sambal',
+    ],
     image: LOVABLE_IMAGES.naskotBroiler,
   },
   {
@@ -378,6 +389,16 @@ export const NASI_KOTAK_LIST: LovableNaskot[] = [
       'Tahu goreng',
       'Jukut goreng',
       '2 pilihan sambal',
+    ],
+    isiKenyang: [
+      'Nasi putih',
+      'Ayam pejantan',
+      'Capcay',
+      'Soun',
+      'Terong goreng',
+      'Tahu goreng',
+      'Lalapan',
+      '2 sambal',
     ],
     image: LOVABLE_IMAGES.naskotPejantan,
   },
@@ -394,6 +415,16 @@ export const NASI_KOTAK_LIST: LovableNaskot[] = [
       'Jukut goreng',
       '2 pilihan sambal',
     ],
+    isiKenyang: [
+      'Nasi putih',
+      'Bebek',
+      'Capcay',
+      'Soun',
+      'Terong goreng',
+      'Tahu goreng',
+      'Lalapan',
+      '2 sambal',
+    ],
     image: LOVABLE_IMAGES.naskotBebek,
   },
   {
@@ -408,6 +439,16 @@ export const NASI_KOTAK_LIST: LovableNaskot[] = [
       'Tahu goreng',
       'Jukut goreng',
       '2 pilihan sambal',
+    ],
+    isiKenyang: [
+      'Nasi putih',
+      'Ikan nila',
+      'Capcay',
+      'Soun',
+      'Terong goreng',
+      'Tahu goreng',
+      'Lalapan',
+      '2 sambal',
     ],
     image: LOVABLE_IMAGES.naskotNila,
   },
@@ -424,12 +465,22 @@ export const NASI_KOTAK_LIST: LovableNaskot[] = [
       'Jukut goreng',
       '2 pilihan sambal',
     ],
+    isiKenyang: [
+      'Nasi putih',
+      'Ikan lele',
+      'Capcay',
+      'Soun',
+      'Terong goreng',
+      'Tahu goreng',
+      'Lalapan',
+      '2 sambal',
+    ],
     image: LOVABLE_IMAGES.naskotLele,
   },
   {
     name: 'Naskot Gurame',
-    goreng: 'Rp39.000',
-    bakar: 'Rp40.000',
+    goreng: 'Rp40.000',
+    bakar: 'Rp41.000',
     desc: 'Ikan gurame dengan pilihan goreng atau bakar.',
     isi: [
       'Nasi putih',
@@ -438,6 +489,16 @@ export const NASI_KOTAK_LIST: LovableNaskot[] = [
       'Tahu goreng',
       'Jukut goreng',
       '2 pilihan sambal',
+    ],
+    isiKenyang: [
+      'Nasi putih',
+      'Ikan gurame',
+      'Capcay',
+      'Soun',
+      'Terong goreng',
+      'Tahu goreng',
+      'Lalapan',
+      '2 sambal',
     ],
     image: LOVABLE_IMAGES.naskotGurame,
   },

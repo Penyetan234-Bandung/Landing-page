@@ -175,6 +175,7 @@ export const DishDetailModal: React.FC<DishDetailModalProps> = ({
               </label>
               <input
                 type="text"
+                maxLength={150}
                 placeholder="Contoh: Sambal dipisah, paha atas, tidak pedas..."
                 value={notes}
                 onChange={(e) => setNotes(e.target.value)}

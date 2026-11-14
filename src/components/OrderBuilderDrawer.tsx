@@ -71,7 +71,7 @@ export const OrderBuilderDrawer: React.FC<OrderBuilderDrawerProps> = ({
     message += `\nMohon konfirmasi ketersediaan dan total biaya pemesanan. Terima kasih!`;
 
     const waUrl = `https://wa.me/${OUTLET_INFO.whatsapp}?text=${encodeURIComponent(message)}`;
-    window.open(waUrl, '_blank');
+    window.open(waUrl, '_blank', 'noopener,noreferrer');
   };
 
   return (
@@ -228,6 +228,7 @@ export const OrderBuilderDrawer: React.FC<OrderBuilderDrawerProps> = ({
                   <input
                     type="text"
                     placeholder="Nama Anda"
+                    maxLength={80}
                     value={customerName}
                     onChange={(e) => setCustomerName(e.target.value)}
                     className="w-full text-xs px-3.5 py-2.5 bg-neutral-50 border border-neutral-200 rounded-xl text-neutral-800 placeholder-neutral-400 focus:outline-none focus:ring-2 focus:ring-[#2a6b50]"
@@ -270,6 +271,7 @@ export const OrderBuilderDrawer: React.FC<OrderBuilderDrawerProps> = ({
                 <div>
                   <textarea
                     rows={2}
+                    maxLength={300}
                     placeholder={
                       orderType === 'delivery'
                         ? 'Alamat pengantaran & patokan lokasi...'
